@@ -47,11 +47,11 @@ public class Main {
             INSERT INTO user(username, password, first_name, last_name, email)
             VALUES ('%s', '%s', 'Chad', 'Bradford', 'moneyball@gmail.com');
             """;
-/*            Scanner scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
             String username = scanner.nextLine();
             String password = scanner.nextLine();
             insertSql = String.format(insertSql, username, password);
-            statement.execute(insertSql);*/
+            statement.execute(insertSql);
 
             // Select 해보자.
             String selectSql = """
